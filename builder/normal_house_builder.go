@@ -18,15 +18,15 @@ func (b normalHouseBuilder) getHouse() house {
 	}
 }
 
-func (b normalHouseBuilder) setWindows() {
+func (b *normalHouseBuilder) setWindows() {
 	b.windowType = "normal window"
 }
 
-func (b normalHouseBuilder) setDoors() {
+func (b *normalHouseBuilder) setDoors() {
 	b.doorType = "normal door"
 }
 
-func (b normalHouseBuilder) setWalls() {
+func (b *normalHouseBuilder) setWalls() {
 	b.wallType = "normal wall"
 }
 

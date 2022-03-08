@@ -18,14 +18,14 @@ func (b iglooBuilder) getHouse() house{
 	}
 }
 
-func (b iglooBuilder) setWindows() {
+func (b *iglooBuilder) setWindows() {
 	b.windowType = "igloo window"
 }
 
-func (b iglooBuilder) setDoors() {
+func (b *iglooBuilder) setDoors() {
 	b.doorType = "igloo door"
 }
 
-func (b iglooBuilder) setWalls() {
+func (b *iglooBuilder) setWalls() {
 	b.wallType = "ice walls"
 }

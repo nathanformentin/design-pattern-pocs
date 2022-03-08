@@ -13,7 +13,7 @@ func main() {
 
 	fmt.Println(formatHouseInformation(house))
 
-	director.setBuilder(&iglooHouseBuilder)
+	director.setBuilder(iglooHouseBuilder)
 	igloo := director.buildHouse()
 	fmt.Println(formatHouseInformation(igloo))
 }
